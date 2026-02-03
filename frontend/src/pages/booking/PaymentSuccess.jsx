@@ -147,7 +147,7 @@ const PaymentSuccess = () => {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
                       <p className="text-sm text-gray-500 uppercase font-bold tracking-wider">Tour Name</p>
-                      <p className="font-semibold text-gray-900 text-lg">{booking.tourDescription}</p>
+                      <p className="font-semibold text-gray-900 text-lg">{booking.tourCategoryName}</p>
                     </div>
                     <div>
                       <p className="text-sm text-gray-500 uppercase font-bold tracking-wider">Booking ID</p>

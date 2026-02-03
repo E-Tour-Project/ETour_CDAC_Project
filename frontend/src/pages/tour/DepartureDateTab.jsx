@@ -42,23 +42,34 @@ const DepartureDateTab = () => {
   /* ---------- UI ---------- */
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
       {dates.map(date => (
         <div
           key={date.id}
-          className="border p-4 rounded-lg shadow-sm"
+          className="
+          border
+          rounded-xl
+          p-6
+          shadow-md
+          bg-white
+        "
         >
-          <p className="text-sm text-gray-500">Departure Date</p>
-          <p className="text-lg font-semibold">
+          <p className="text-sm text-gray-500 mb-1">
+            Departure Date
+          </p>
+
+          <p className="text-2xl font-semibold text-gray-900 mb-3">
             {date.departureDate}
           </p>
 
-          <p className="text-sm text-gray-600 mt-1">
-            End Date: {date.endDate}
+          <p className="text-base text-gray-600 mb-1">
+            <span className="font-medium text-gray-700">End Date:</span>{" "}
+            {date.endDate}
           </p>
 
-          <p className="text-sm text-gray-600">
-            Duration: {date.numberOfDays} Days
+          <p className="text-base text-gray-600">
+            <span className="font-medium text-gray-700">Duration:</span>{" "}
+            {date.numberOfDays} Days
           </p>
         </div>
       ))}

@@ -69,7 +69,7 @@ const BookingSummary = () => {
             <div className="p-6 grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <p className="text-sm text-gray-400 uppercase tracking-wider font-bold mb-1">Tour Name</p>
-                <p className="text-gray-900 font-semibold text-lg">{booking.tourDescription}</p>
+                <p className="text-gray-900 font-semibold text-lg">{booking.tourCategoryName}</p>
               </div>
               <div>
                 <p className="text-sm text-gray-400 uppercase tracking-wider font-bold mb-1">Departure Date</p>

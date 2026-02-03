@@ -54,13 +54,16 @@ const CategoryPage = () => {
   return (
     <div className="min-h-screen bg-gray-50 pt-20"> {/* pt-20 to account for fixed navbar */}
 
+
       {/* Header Section */}
       <div className="bg-emerald-500 text-white py-12 text-center relative overflow-hidden">
         {/* Background pattern */}
         <div className="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
         <div className="relative z-10">
-          <h1 className="text-4xl font-bold mb-2 capitalize">{categoryName} Tours</h1>
-          <p className="text-emerald-100 text-lg">Explore our collection of {categoryName} tours</p>
+          {/* <h1 className="text-4xl font-bold mb-2 capitalize">{categoryName} Tours</h1>
+          <p className="text-emerald-100 text-lg">Explore our collection of {categoryName} tours</p> */}
+          <h1 className="text-4xl font-bold mb-2 capitalize"> Tours</h1>
+          <p className="text-emerald-100 text-lg">Explore our collection of tours</p>
         </div>
       </div>
 

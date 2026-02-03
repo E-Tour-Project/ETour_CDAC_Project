@@ -39,7 +39,7 @@ const ItineraryTab = () => {
             {/* Content */}
             <div className="space-y-3">
               <h3 className="text-xl font-bold text-gray-900">
-                {(item.itineraryDetails && item.itineraryDetails.split('.')[0]) || `Day ${item.dayNumber}`}
+                {`Day ${item.dayNumber}`}
               </h3>
               <p className="text-gray-600 leading-relaxed bg-gray-50 p-6 rounded-xl border border-gray-100">
                 {item.itineraryDetails || "No details available."}
