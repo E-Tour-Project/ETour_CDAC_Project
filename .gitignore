@@ -44,3 +44,29 @@ booking.log
 
 # Test output
 test_output.txt
+
+.env
+
+# -----------------------------
+# Generated logs (ALL variants)
+# -----------------------------
+*.log
+*.log.*
+*.gz
+*.tmp
+
+# -----------------------------
+# Spring profiles (local/dev)
+# -----------------------------
+application-dev.properties
+
+# -----------------------------
+# Static images (if not versioned intentionally)
+# -----------------------------
+src/main/resources/static/images/
+
+# -----------------------------
+# OS junk
+# -----------------------------
+.DS_Store
+Thumbs.db
